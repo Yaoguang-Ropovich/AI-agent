@@ -18,6 +18,7 @@ def analyze_text(text):
 
 text = "RAG Agent RAG LangGraph Agent"
 
+#tuple 解包:把三个返回值分别保存到三个变量中
 a, b, c = analyze_text(text)
 
 print(f"text:{text}")
